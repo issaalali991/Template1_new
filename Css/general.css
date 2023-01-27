@@ -52,7 +52,7 @@
   display: block;
   height: 2px;
   width: 70px;
-  margin: 0 auto 70px auto; /* لتوسيط الخط */
+  margin: 0 auto 70px auto; 
   background-color: var(--maincolor);
 
 }

@@ -63,7 +63,7 @@
     text-align: center;
     left: -50%;
     top: 70%;
-    opacity: 0;/* لاخفاء القائمة المنسدلة */
+    opacity: 0;
     visibility: hidden;
     transition: opacity 0.5s ;
    }
@@ -73,6 +73,6 @@
     padding: 10px;
    }
    .dropdown:hover .dropdown-menu{
-    opacity: 1;/* لاظهار القائمة المنسدلة */
+    opacity: 1;
     visibility: visible;
    }

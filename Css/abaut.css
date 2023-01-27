@@ -13,7 +13,7 @@
 .about-item:hover .about-item-title{
   color:var(--whitecolor);
 }
-.about-item.mg{/* عنصر واحد لديه هذه الكلاسات */
+.about-item.mg{
   margin: 0 5%;
 }
 .about-item .icon{

@@ -1,7 +1,7 @@
 /* 3.4 - Offer Section */
 
 .offer-content{
-  overflow: hidden; /*حل مشكلة الفلوت */
+  overflow: hidden; 
 }
 .offer-item{
   width: 30%;

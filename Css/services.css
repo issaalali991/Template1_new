@@ -20,7 +20,7 @@
   margin-bottom: 20px;
 }
 .service-list{
-  list-style: none; /* لكي نحذف الترقيم من الليستا */  
+  list-style: none; 
 }
 .service-list li{
   margin-bottom: 10px;

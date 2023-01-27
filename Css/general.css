@@ -1,0 +1,58 @@
+/* 2- General Style */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Css3*/ 
+  }
+  :root{ /* html */
+    --maincolor: #6195ff;;
+    --graycolor: #999;
+    --bg-gray: #f9f9f9;
+    --whitecolor: #fff;
+  }
+  .container{
+  width: 80%;
+  margin: auto;
+ 
+  }
+  .mg-p{
+    margin-bottom: 10px;
+  }
+  body{
+  font-family: 'Varela Round', sans-serif;
+
+  }
+  .clear{
+  clear: both; /* to solve float Problem */
+  }
+  h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat', sans-serif;
+  }
+  button{
+  font-family: inherit;
+  }
+  ul{
+    list-style: none;
+  }
+  a{
+  text-decoration: none;
+}
+.pd-y {
+  padding: 120px 0;
+}
+.section-header{
+  text-align: center;
+}
+.section-header .section-title{
+  font-size: 35px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.section-header .line{
+  display: block;
+  height: 2px;
+  width: 70px;
+  margin: 0 auto 70px auto; /* لتوسيط الخط */
+  background-color: var(--maincolor);
+
+}

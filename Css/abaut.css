@@ -1,0 +1,38 @@
+/* 3.2- Abaut Section */
+
+.about-content {
+  overflow: hidden;
+}
+.about-item{
+  width: 30%;
+  float: left; 
+  text-align: center;
+  border: solid #e8e8e8;
+  padding: 50px 20px;
+}
+.about-item:hover .about-item-title{
+  color:var(--whitecolor);
+}
+.about-item.mg{/* عنصر واحد لديه هذه الكلاسات */
+  margin: 0 5%;
+}
+.about-item .icon{
+  color: var(--maincolor);
+  
+}
+
+
+.about-item-title{
+  color: var(--maincolor);
+  text-transform: capitalize;
+  transition: color 0.5s;
+
+}
+.about-item-desc{
+  line-height: 1.6;
+  color: var(--graycolor);
+}
+.about-item-link{
+  color: var(--maincolor);
+  text-transform: capitalize;
+}

@@ -1,0 +1,76 @@
+/* 3.8- Contact Section */
+
+.connect-content{
+  overflow: hidden;
+  padding-left:120px; 
+}
+.connect-item{
+  width: 30%;
+  float: left; 
+  text-align: center;
+  font-size: larger;
+}
+.connect-item i{
+  color: var(--maincolor);
+  margin: 10px 0;
+}
+.connect-item .connect-title{
+  font-weight: bold;
+  margin: 10px 0;
+}
+.connect-item .connect-desc{
+  margin: 10px 0;
+  color: var(--graycolor);
+}
+
+.form{
+  margin: auto;
+  padding: 20px;
+}
+
+textarea {
+  padding: 10px;
+  min-height: 80px;
+ 
+}
+.name , .email{
+  margin-left: 10px;
+  height: 40px;
+  width: 47%;
+  border: none;
+  background: var(--bg-gray); 
+  color:var(--graycolor);
+  margin: 10px;
+ 
+}
+.sub , .msg {
+  height: 40px;
+  width: 100%;
+  border: none;
+  background: var(--bg-gray);
+  color: #354052;
+  margin: 10px;
+   
+  
+}
+button, input, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+button, input, textarea {
+  margin: 0;
+  font: inherit;
+}
+.form button {
+  background-color: var(--maincolor);
+  color: var(--whitecolor);
+  width: 160px;
+  padding: 10px 0;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  font-size: 18px;
+  margin-left: 40%;
+}

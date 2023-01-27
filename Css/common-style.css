@@ -1,0 +1,53 @@
+/* 1- Common Style */
+/*
+  - overlay
+  - opacity hover
+  - section header
+  - section padding
+  - hover efefect 1 (left to right)
+  - hover efefect 1 (top to bottom)
+*/
+.overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7) ; /* أجل الشفافيى */
+}
+.hover-opacity{
+  transition: opacity 0.5s;/* المدة للهفر */
+}
+.hover-opacity:hover{
+  opacity: 0.8;
+}
+.ltr-effect , 
+.tb-effect{
+  position: relative;
+}
+.ltr-effect:after , .tb-effect:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left:0;
+  right: 0;
+  bottom: 0;
+  background: #333;
+  z-index: -1;
+ 
+}
+.ltr-effect:after{
+  width:0;
+  transition: width 0.5s;
+}
+.tb-effect:after{
+  height: 0;
+  transition: height 0.5s;
+}
+.ltr-effect:hover:after{
+  width: 100%;
+}
+
+.tb-effect:hover:after{ 
+  height: 100%;
+}

@@ -13,10 +13,10 @@
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.7) ; /* أجل الشفافيى */
+  background-color: rgba(0, 0, 0, 0.7) ; 
 }
 .hover-opacity{
-  transition: opacity 0.5s;/* المدة للهفر */
+  transition: opacity 0.5s;
 }
 .hover-opacity:hover{
   opacity: 0.8;
